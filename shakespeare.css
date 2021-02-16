@@ -31,3 +31,24 @@
 .horatio{
     color:rgb(236, 71, 93)
     }
+    table { 
+        margin-top:30px;
+        margin-left:50px;
+        border: solid 4px rgb(105, 26, 26);
+        }
+    
+    th {
+        background-color: rgb(76, 143, 206);
+        border: solid 1px ;
+        text-align: center;
+        font-size: larger;
+        padding: 15px;
+    }
+    td{
+        border: solid 1px ;
+        text-align: center;
+        font-size: medium;
+        padding: 15px;
+    }
+    tr:nth-child(even)
+        {background-color: #ddd1d1;}
