@@ -19,17 +19,24 @@
     background-color:yellow ;
     color: blue;  
 }
+.name:hover{
+    text-shadow: 5px 3px 8px green;
+    border-style: outset;
+    border-width: thick;
+    border-width: 6px;
+    display: inline;
+}
 .bernardo{
     color:rgb(124, 49, 49)
     } 
 .francisco{
     color:rgb(219, 43, 43)
     } 
-.macellus{
+.marcellus{
     color:rgb(71, 52, 240)
     }
 .horatio{
-    color:rgb(236, 71, 93)
+    color:rgb(27, 136, 54)
     }
     table { 
         margin-top:30px;
