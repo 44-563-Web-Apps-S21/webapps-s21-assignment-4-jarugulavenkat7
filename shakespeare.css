@@ -69,12 +69,12 @@
         border: 5px solid #73AD21;
         
     }
-    /*
+    
     body {
         background-image: url("images/background.jpg");
         background-size: cover;
        }
-*/
+
        ul.navbar-horizontal {
         /* remove these */
         list-style-type: none;
