@@ -58,4 +58,55 @@
         padding: 15px;
     }
     tr:nth-child(even)
-        {background-color: #ddd1d1;}
+        {background-color: #ddd1d1;
+    }
+    .image_position{
+        position: absolute;
+        top: 80px;
+        right: 250px;
+        width: 300px;
+    }
+    img:hover{
+        border: 5px solid #73AD21;
+        
+    }
+    
+    body {
+        background-image: url("images/background.jpg");
+        background-size: cover;
+       }
+
+       ul.navbar-horizontal {
+        /* remove these */
+        list-style-type: none;
+        margin-bottom: 3px;
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        }
+
+        ul.navbar-horizontal li {
+        float:left; /* line up horizontally */
+        color:#000;
+        background-color:rgb(241, 176, 138)
+        }
+        ul.navbar-horizontal a {
+        display:block;
+        padding:8px
+        }
+        /* on hover change the link color*/
+        ul.navbar-horizontal a:hover {
+        background-color: #555;
+        color:white;   
+
+        }
+        .icon{
+            position: absolute;
+            right: 10px;
+        }
+        .bookIcon{
+            position: absolute;
+            top: 570px;
+            right: 200px;
+            width: 350px;
+        }
